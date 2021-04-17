@@ -1,0 +1,170 @@
+
+/*// TAMAÑO DE LETRAS PARA LA TABLA ARTICULO COMUN*/
+
+.label-success{
+ background-color: #5cb85c;
+  box-sizing: border-box;
+}
+
+.label-danger{
+ background-color: #F3331C;
+  box-sizing: border-box;
+}
+
+.label{
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+
+/*  .h1{
+  color:green;
+      background: pink;
+      padding: 10px;
+      text-align: center;
+}*/
+
+/*MI ESTILO PARA MI MODAL*/
+
+/* .form-control::-webkit-input-placeholder { 
+  color: black; 
+  opacity: 0.2;
+  }
+
+  .modal-body-info {
+      max-width: 100%;
+      overflow-x: auto;
+        height: 500px;
+      overflow-y: auto;
+  }
+
+  .modal-dialog{
+      overflow-y: initial !important
+      -webkit-box-shadow: -1px 3px 0px 9px rgb(3, 16, 28);
+      -moz-box-shadow: -1px 3px 0px 9px rgb(3, 16, 28);
+       box-shadow: -1px 3px 0px 9px rgb(3, 16, 28);
+       width: 70% !important;
+  }
+  .modal-body{
+      height: 600px;
+      overflow-y: auto;
+  }
+
+
+  .modal-body3{
+      height: 800px;
+      overflow-y: auto;
+  }
+
+  .linkText{
+    color:blue;
+    text-decoration: underline;
+	}*/
+	
+
+
+
+/* 	///////////// modulo ventas-->ventas */
+
+.color{
+	background-color: rgba(199, 156, 117, 0.911);
+}
+
+.color_Import{	
+	background-color: #43d6093a;
+}
+.color_CodBarra{
+	background-color: #1cc1f357;
+}
+
+.table-fixed tbody{
+	height: 230px;
+	overflow-y: auto;
+	width: 100%;
+} 
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed td,
+.table-fixed th{
+	display: block;
+} 
+
+.table-fixed tbody td,
+.table-fixed thead > tr > th{
+	float: left;
+	border-bottom-width: 0;
+}
+
+.posicion_izquierda{
+	display: flex;
+	justify-content: space-between;
+}
+
+.margen_derecho{
+  /* padding-right: 20px; */
+	margin-right: 10px;
+}
+.margen{
+	margin-right: 15px;
+}
+.tamano{
+	font-size: 25px;
+	margin-right: 30px;
+} 
+
+.stilos_span{
+	margin-right: 20px;
+
+}
+
+/* table td:nth-child(3) {  //esto permite centrar un elemto de las filas 
+  text-align: center;
+} */
+
+div .div-fond1{
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 181));
+}
+div .div-fond2{
+  background-image: radial-gradient(rgb(199,206,204), rgb(241,241,241));
+  padding-top: 4px;
+}
+div .div-fond-body{
+  background-color: #17a2b8;
+}
+div .div-fond-footer{
+  background-color: #17a2b899;
+}
+
+.tr-selected:hover{
+	background: #17a2b8;
+	cursor: pointer;
+}
+
+.tr-selecionada{
+	background: #17a2b8;
+}
+
+/* // CONFIGURANDO EL GRID EN PADING */
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 5px 0px 0px 0px;
+	text-align: center;
+}
+/* // CONFIGURANDO EL MODAL EN DISPLAY */
+.flex {
+	display: flex;
+}
+
+.img-cliente{
+	height: 150px;
+	width: auto;
+	max-width: 150px;
+}

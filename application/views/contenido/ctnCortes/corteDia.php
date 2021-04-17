@@ -1,0 +1,1 @@
+<h1>Vista Corte Del Dia</h1>

@@ -1,0 +1,1 @@
+<h1>Vista Cortes de Cajero</h1>
